@@ -35,7 +35,7 @@ class ShowDetails extends Component {
                 <div className='showDescription'>
                     <h1>{this.state.show.name}</h1>
                     <div className='episodeGuide'>
-                    <p>Seaons: {this.state.show.number_of_seasons}</p>
+                    <p>Seasons: {this.state.show.number_of_seasons}</p>
                     <p>Episodes {this.state.show.number_of_episodes}</p>
                     </div>
                     <p>{this.state.show.overview}</p>
