@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Bingr/static/css/main.a7487347.chunk.css",
-    "main.js": "/Bingr/static/js/main.07e1076a.chunk.js",
-    "main.js.map": "/Bingr/static/js/main.07e1076a.chunk.js.map",
+    "main.js": "/Bingr/static/js/main.df529412.chunk.js",
+    "main.js.map": "/Bingr/static/js/main.df529412.chunk.js.map",
     "runtime-main.js": "/Bingr/static/js/runtime-main.1b78dc4b.js",
     "runtime-main.js.map": "/Bingr/static/js/runtime-main.1b78dc4b.js.map",
-    "static/js/2.e5250f19.chunk.js": "/Bingr/static/js/2.e5250f19.chunk.js",
-    "static/js/2.e5250f19.chunk.js.map": "/Bingr/static/js/2.e5250f19.chunk.js.map",
+    "static/js/2.b73dcf12.chunk.js": "/Bingr/static/js/2.b73dcf12.chunk.js",
+    "static/js/2.b73dcf12.chunk.js.map": "/Bingr/static/js/2.b73dcf12.chunk.js.map",
     "index.html": "/Bingr/index.html",
-    "precache-manifest.a9ad8b0df5c42d6a15b3104f52501bab.js": "/Bingr/precache-manifest.a9ad8b0df5c42d6a15b3104f52501bab.js",
+    "precache-manifest.b04e26ffdf7e1d5c3472ffd94e290a7c.js": "/Bingr/precache-manifest.b04e26ffdf7e1d5c3472ffd94e290a7c.js",
     "service-worker.js": "/Bingr/service-worker.js",
     "static/css/main.a7487347.chunk.css.map": "/Bingr/static/css/main.a7487347.chunk.css.map",
-    "static/js/2.e5250f19.chunk.js.LICENSE.txt": "/Bingr/static/js/2.e5250f19.chunk.js.LICENSE.txt"
+    "static/js/2.b73dcf12.chunk.js.LICENSE.txt": "/Bingr/static/js/2.b73dcf12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b78dc4b.js",
-    "static/js/2.e5250f19.chunk.js",
+    "static/js/2.b73dcf12.chunk.js",
     "static/css/main.a7487347.chunk.css",
-    "static/js/main.07e1076a.chunk.js"
+    "static/js/main.df529412.chunk.js"
   ]
 }
