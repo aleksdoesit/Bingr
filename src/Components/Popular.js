@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 class Popular extends Component {
@@ -29,7 +29,6 @@ class Popular extends Component {
 
     render() {
         return (
-            <Router>
             <div className='viewMoreWrapper'>
                 <h1>Checkout What's Trending</h1>
                 <ul className='viewMoreList'>
@@ -46,7 +45,6 @@ class Popular extends Component {
                     }
                 </ul>
             </div>
-            </Router>
         )
     }
 }
