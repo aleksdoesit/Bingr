@@ -46,7 +46,7 @@ export class App extends Component {
                             <Link className='routerNavigation' to='/rated'>Highly Rated</Link>
                         </ul>
                     </nav>
-                    <Route exact path='/' component={ Home }/>
+                    <Route exact path='Bingr/' component={ Home }/>
                     <Route exact path='/tv/:id' component={ ShowDetails } />
                     <Route exact path='/popular' component={ Popular } />
                     <Route exact path='/new' component={ Newest } />
