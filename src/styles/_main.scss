@@ -123,6 +123,7 @@ html {
 
     .main {
         background-color: $primaryWhite;
+        padding-bottom: 50px;
 
         h2 {
             color: $primaryBlack;
@@ -181,6 +182,18 @@ html {
                     }
                 }
             }
+        }
+    }
+
+    footer {
+        background-color: $primaryBlack;
+        text-align: center;
+        padding: 20px;
+        // margin-top: 40px;
+
+        p {
+            margin: 0;
+            color: $primaryWhite;
         }
     }
 }

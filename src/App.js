@@ -51,6 +51,9 @@ export class App extends Component {
                     <Route path='/popular' component={ Popular } />
                     <Route path='/new' component={ Newest } />
                     <Route path='/rated' component={ HighRated } />
+                    <footer>
+                        <p>Created by Aleks Nikolic, 2020</p>
+                    </footer>
                 </div>
             </HashRouter>
         )
