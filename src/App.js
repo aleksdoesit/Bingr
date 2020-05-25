@@ -40,13 +40,13 @@ export class App extends Component {
                     <nav className='mainNav'>
                         <h2>Bingr</h2>
                         <ul>
-                            <Link className='routerNavigation' to='/'>Home</Link>
+                            <Link className='routerNavigation' to='/Bingr/'>Home</Link>
                             <Link className='routerNavigation' to='/popular'>Trending</Link>
                             <Link className='routerNavigation' to='/new'>New</Link>
                             <Link className='routerNavigation' to='/rated'>Highly Rated</Link>
                         </ul>
                     </nav>
-                    <Route exact path='Bingr/' component={ Home }/>
+                    <Route exact path='/Bingr/' component={ Home }/>
                     <Route exact path='/tv/:id' component={ ShowDetails } />
                     <Route exact path='/popular' component={ Popular } />
                     <Route exact path='/new' component={ Newest } />
