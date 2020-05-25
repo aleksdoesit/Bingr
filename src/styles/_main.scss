@@ -1,0 +1,186 @@
+html {
+    font-family: $bodyFont;
+
+    .mainNav {
+        top: 0;
+        display: flex;
+        position: fixed;
+        background-color: $primaryOrange;
+        color: $primaryWhite;
+        padding-left: 100px;
+        width: 100vw;
+        height: 75px;
+        z-index: 10;
+
+        ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+
+            .routerNavigation {
+                color: $primaryWhite;
+                text-decoration: none;
+                padding: 0 10px;
+
+                &:hover {
+                    color: $primaryBlack;
+                }
+            }
+
+            li {
+                padding: 0 10px;
+
+                a {
+                    text-decoration: none;
+                    color: $primaryWhite;
+
+                    &:hover {
+                        color: $primaryBlack;
+                    }
+                }
+            }
+        }
+    }
+
+    .mainHeader {
+        display: flex;
+        background-color: $primaryBlack;
+        color: $primaryOrange;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+
+        .intro {
+            display: flex;
+            flex-direction: column;
+            padding-left: 100px;
+
+            h1 {
+                font-family: $logoFont;
+                font-size: 3rem;
+                text-align: center;
+                margin: 20px 0;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+            button {
+                background-color: $primaryOrange;
+                margin: 20px auto 0;
+                border: 1px solid $primaryOrange;
+                border-radius: 5px;
+                padding: 10px 20px;
+
+                a {
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    color: $primaryBlack;
+                }
+
+                &:hover {
+                    background-color: $primaryBlack;
+                    border: 1px solid $primaryOrange;
+
+                    a {
+                        color: $primaryOrange;
+                    }
+                }
+            }
+        }
+
+        .posterCollage {
+            height: 100%;
+            width: 60%;
+            top: 75px;
+            position: relative;
+
+            .overlay {
+                position: absolute;
+                background: linear-gradient(90deg, rgba(35, 43, 43, 0.9) 25%, rgba(255, 255, 255, 0.1) 55%);
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: calc(100% - 75px);
+                z-index: 2;
+            }
+
+            .imageContainer {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: calc(100% - 75px);
+
+                img {
+                    display: block;
+                    max-width: 16.666%;
+                    // max-height: %;
+                }
+            }
+        }
+    }
+
+    .main {
+        background-color: $primaryWhite;
+
+        h2 {
+            color: $primaryBlack;
+            font-size: 2rem;
+            margin: 50px 50px;
+        }
+
+        .popularShows,
+        .newestShows,
+        .highestRatedShows {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+
+
+
+            .shows {
+                width: 15%;
+                display: flex;
+                list-style: none;
+
+                img {
+                    width: 100%;
+                    // height: 150%;
+                }
+            }
+            
+            .viewMoreContainer {
+                display: flex;
+                margin-top: auto;
+                margin-bottom: 3px;
+                text-decoration: none;
+
+
+                .viewMore {
+                    margin: auto 20px;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    border: 1px solid $primaryOrange;
+                    background-color: $primaryOrange;
+    
+                    a {
+                        text-decoration: none;
+                        color: $primaryBlack;
+                    }
+    
+                    &:hover {
+                        background-color: $primaryBlack;
+                        border: 1px solid $primaryBlack;
+    
+                        a {
+                            color: $primaryOrange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

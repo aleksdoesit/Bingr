@@ -1,0 +1,71 @@
+.detailsWrapper {
+    background-color: $primaryBlack;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 120px 120px 0;
+    justify-content: center;
+
+    .showDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        color: $primaryWhite;
+
+        p {
+            line-height: 1.8rem;
+            padding: 0 60px;
+            max-height: 300px;
+            overflow: scroll;
+        }
+
+        .episodeGuide {
+            display: flex;
+
+            p {
+                padding: 0 10px;
+            }
+        }
+
+        button {
+            margin: 40px 20px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            border: 1px solid $primaryOrange;
+            background-color: $primaryOrange;
+
+            a {
+                text-decoration: none;
+                color: $primaryBlack;
+            }
+
+            &:hover {
+                background-color: $primaryWhite;
+                border: 1px solid $primaryWhite;
+            }
+        }
+
+        .genres {
+            display: flex;
+            padding: 0 20px;
+
+            p {
+                width: 100px;
+                padding: 5px;
+                text-align: center;
+                overflow: hidden;
+            }
+
+        }
+    }
+
+    .posterContainer {
+        margin-left: 80px;
+
+        img {
+            max-height: 500px;
+        }
+    }
+}
