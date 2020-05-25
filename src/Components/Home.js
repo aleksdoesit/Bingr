@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import axios from 'axios';
 
 class Home extends Component {
@@ -63,6 +63,7 @@ class Home extends Component {
 
     render() {
         return (
+            <Router>
             <div className='main'>
                 <header className='mainHeader'>
                     <div className='intro'>
@@ -138,6 +139,7 @@ class Home extends Component {
                 </Link>
             </ul>
             </div>
+            </Router>
         )
     }
 }

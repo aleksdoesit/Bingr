@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Link } from 'react-router-dom';
 import Home from './Components/Home'
 import ShowDetails from './Components/ShowDetails';
 import Popular from './Components/Popular';
@@ -35,7 +35,7 @@ export class App extends Component {
     }
     render() {
         return (
-            <Router>
+            <HashRouter basename='/'>
                 <div>
                     <nav className='mainNav'>
                         <h2>Bingr</h2>
@@ -52,7 +52,7 @@ export class App extends Component {
                     <Route exact path='/new' component={ Newest } />
                     <Route exact path='/rated' component={ HighRated } />
                 </div>
-            </Router>
+            </HashRouter>
         )
     }
 }

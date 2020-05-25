@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import axios from 'axios';
 
 class Newest extends Component {
@@ -28,6 +28,7 @@ class Newest extends Component {
 
     render() {
         return (
+            <Router>
             <div className='viewMoreWrapper'>
                 <h1>Checkout What's Just Released</h1>
                 <ul className='viewMoreList'>
@@ -44,6 +45,7 @@ class Newest extends Component {
                     }
                 </ul>
             </div>
+            </Router>
         )
     }
 }

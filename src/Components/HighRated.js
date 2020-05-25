@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import axios from 'axios';
 
 class HighRated extends Component {
@@ -31,6 +31,7 @@ class HighRated extends Component {
 
     render() {
         return (
+            <Router>
             <div className='viewMoreWrapper'>
                 <h1>Checkout Some Fan Favourites</h1>
                 <ul className='viewMoreList'>
@@ -47,6 +48,7 @@ class HighRated extends Component {
                     }
                 </ul>
             </div>
+            </Router>
         )
     }
 }
