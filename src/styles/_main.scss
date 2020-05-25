@@ -1,5 +1,6 @@
 html {
     font-family: $bodyFont;
+    overflow-x: hidden;
 
     .mainNav {
         top: 0;
@@ -182,6 +183,11 @@ html {
                     }
                 }
             }
+        }
+
+        .body {
+            padding-top: 75px;
+            margin-top: -75px;
         }
     }
 

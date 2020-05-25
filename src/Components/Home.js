@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
@@ -10,6 +10,14 @@ class Home extends Component {
             newestList: [],
             highestRatedList: []
         }
+        this.body = React.createRef();
+    }
+
+    scroll(ref) {
+        ref.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+        });
     }
     
     componentDidMount() {
@@ -61,6 +69,8 @@ class Home extends Component {
         })
     }
 
+
+
     render() {
         return (
             <div className='main'>
@@ -69,7 +79,7 @@ class Home extends Component {
                         <h3>Welcome to</h3>
                         <h1>Bingr</h1>
                         <p>Discover Your New Favourite Show</p>
-                        <button><a href="#">Get Started</a></button>
+                        <button onClick={() => {this.scroll(this.body)}}><a>Get Started</a></button>
                     </div>
 
                     <div className='posterCollage'>
@@ -86,6 +96,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </header>
+                <div className='body' ref={this.body}>
                 <h2>Trending</h2>
                 <ul className='popularShows'>
                 {
@@ -137,6 +148,7 @@ class Home extends Component {
                 <button className='viewMore'><a href="#">View More ➡</a></button>
                 </Link>
             </ul>
+            </div>
             </div>
         )
     }
