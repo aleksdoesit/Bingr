@@ -47,12 +47,10 @@ export class App extends Component {
                         </ul>
                     </nav>
                     <Route exact path='/' component={ Home }/>
-
-                    <Route path='/tv/:id' component={ ShowDetails } />
-
-                    <Route path='/popular' component={ Popular } />
-                    <Route path='/new' component={ Newest } />
-                    <Route path='/rated' component={ HighRated } />
+                    <Route exact path='/tv/:id' component={ ShowDetails } />
+                    <Route exact path='/popular' component={ Popular } />
+                    <Route exact path='/new' component={ Newest } />
+                    <Route exact path='/rated' component={ HighRated } />
                 </div>
             </Router>
         )

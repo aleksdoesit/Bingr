@@ -29,7 +29,7 @@ class Newest extends Component {
     render() {
         return (
             <div className='viewMoreWrapper'>
-                <h1>Checkout What's Trending</h1>
+                <h1>Checkout What's Just Released</h1>
                 <ul className='viewMoreList'>
                     {
                         this.state.showList.map((show) => {
