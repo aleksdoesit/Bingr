@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Bingr//static/css/main.3bcc6986.chunk.css",
-    "main.js": "/Bingr//static/js/main.ec61c23c.chunk.js",
-    "main.js.map": "/Bingr//static/js/main.ec61c23c.chunk.js.map",
+    "main.js": "/Bingr//static/js/main.09ca70f0.chunk.js",
+    "main.js.map": "/Bingr//static/js/main.09ca70f0.chunk.js.map",
     "runtime-main.js": "/Bingr//static/js/runtime-main.7072850a.js",
     "runtime-main.js.map": "/Bingr//static/js/runtime-main.7072850a.js.map",
     "static/js/2.81f9a8a1.chunk.js": "/Bingr//static/js/2.81f9a8a1.chunk.js",
     "static/js/2.81f9a8a1.chunk.js.map": "/Bingr//static/js/2.81f9a8a1.chunk.js.map",
     "index.html": "/Bingr//index.html",
-    "precache-manifest.077b94321a80ec7ff842154e8fb45e7b.js": "/Bingr//precache-manifest.077b94321a80ec7ff842154e8fb45e7b.js",
+    "precache-manifest.ad6b4bf4d3ee4320aed69c325ebda6fb.js": "/Bingr//precache-manifest.ad6b4bf4d3ee4320aed69c325ebda6fb.js",
     "service-worker.js": "/Bingr//service-worker.js",
     "static/css/main.3bcc6986.chunk.css.map": "/Bingr//static/css/main.3bcc6986.chunk.css.map",
     "static/js/2.81f9a8a1.chunk.js.LICENSE.txt": "/Bingr//static/js/2.81f9a8a1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7072850a.js",
     "static/js/2.81f9a8a1.chunk.js",
     "static/css/main.3bcc6986.chunk.css",
-    "static/js/main.ec61c23c.chunk.js"
+    "static/js/main.09ca70f0.chunk.js"
   ]
 }
