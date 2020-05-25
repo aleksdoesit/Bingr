@@ -31,7 +31,6 @@ class HighRated extends Component {
 
     render() {
         return (
-            <Router>
             <div className='viewMoreWrapper'>
                 <h1>Checkout Some Fan Favourites</h1>
                 <ul className='viewMoreList'>
@@ -48,7 +47,6 @@ class HighRated extends Component {
                     }
                 </ul>
             </div>
-            </Router>
         )
     }
 }
